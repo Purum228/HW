@@ -1,0 +1,108 @@
+.turkey{
+    background: red;
+    width: 600px;
+    height: 400px;
+}
+
+.circle1{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.circle2{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    left: 205px;
+}
+
+.star {
+    margin: 50px 0; 
+    height: 0; 
+    width: 0;
+    position: relative;
+    top: 170px;
+    left: 325px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #fff;
+    border-left: 50px solid transparent;
+    transform: rotate(35deg);
+}
+.star:before, .star:after {
+    content: "";
+    height: 0; 
+    width: 0;
+    position: absolute;
+}
+.star:before {
+    top: -26px; 
+    left: -32px;
+    border-bottom: 40px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    transform: rotate(-35deg);
+}
+.star:after {
+    top: 2px; 
+    left: -53px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #fff;
+    border-left: 50px solid transparent;
+    transform: rotate(-70deg);
+}
+
+.sweden{
+    width: 600px;
+    height: 400px;
+    background: red;
+    margin-top: 200px;
+}
+.plus{
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    position: relative;
+    top: 75px;
+    left: 160px;
+}
+
+.red1{
+    background: red;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    bottom: -190px;
+    left: 135px;
+}
+.red2{
+    background: red;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    bottom: -190px;
+    left: 325px;
+}
+.red3{
+    background: red;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    bottom: -380px;
+    left: 135px;
+}
+.red4{
+    background: red;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    bottom: -380px;
+    left: 325px;
+}
